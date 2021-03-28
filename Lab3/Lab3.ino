@@ -1,7 +1,7 @@
 const int trigPin = 32;  //This is Port Pin 3.5 on the MSP432 Launchpad
 const int echoPin = 33; //This is Port Pin 5.1 on the MSP432 Launchpad 
 
-//constexpr size_t NUM_SAMPLES = 5;
+
 
 void setup() {
   pinMode(trigPin, OUTPUT);
